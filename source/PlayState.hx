@@ -2253,7 +2253,7 @@ class PlayState extends MusicBeatState
 	}
 
 	public function updateScore(miss:Bool = false)
-	{
+	{	
 		scoreTxt.text = 'Score: ' + songScore
 		+ ' | Misses: ' + songMisses
 		+ ' | Rating: ' + ratingName
